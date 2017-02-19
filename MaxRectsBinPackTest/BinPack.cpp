@@ -1,5 +1,7 @@
 #include "../MaxRectsBinPack.h"
 #include <cstdio>
+#include <stdio.h>
+#include <conio.h>
 
 
 int main(int argc, char **argv)
@@ -11,6 +13,7 @@ int main(int argc, char **argv)
 		printf("       where binWidth and binHeight define the size of the bin.\n");
 		printf("       w_i is the width of the i'th rectangle to pack, and h_i the height.\n");
 		printf("Example: MaxRectsBinPackTest 256 256 30 20 50 20 10 80 90 20\n");
+        int ch = getch();
 		return 0;
 	}
 	
@@ -42,4 +45,5 @@ int main(int argc, char **argv)
 			printf("Failed! Could not find a proper position to pack this rectangle into. Skipping this one.\n");
 	}
 	printf("Done. All rectangles packed.\n");
+    int ch = getch();
 }

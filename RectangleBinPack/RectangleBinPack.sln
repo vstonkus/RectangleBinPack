@@ -1,24 +1,42 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RectangleBinPack", "RectangleBinPack.vcxproj", "{CB584136-5A78-42BC-A2EB-367B9E60290D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaxRectsBinPackTest", "..\MaxRectsBinPackTest\MaxRectsBinPackTest.vcxproj", "{D20BF580-101C-4705-93FC-8240A728203E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zetBlock", "..\zetBlock\zetBlock.csproj", "{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB584136-5A78-42BC-A2EB-367B9E60290D}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{CB584136-5A78-42BC-A2EB-367B9E60290D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{CB584136-5A78-42BC-A2EB-367B9E60290D}.Debug|Win32.Build.0 = Debug|Win32
+		{CB584136-5A78-42BC-A2EB-367B9E60290D}.Release|Any CPU.ActiveCfg = Release|Win32
 		{CB584136-5A78-42BC-A2EB-367B9E60290D}.Release|Win32.ActiveCfg = Release|Win32
 		{CB584136-5A78-42BC-A2EB-367B9E60290D}.Release|Win32.Build.0 = Release|Win32
+		{D20BF580-101C-4705-93FC-8240A728203E}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{D20BF580-101C-4705-93FC-8240A728203E}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D20BF580-101C-4705-93FC-8240A728203E}.Debug|Win32.Build.0 = Debug|Win32
+		{D20BF580-101C-4705-93FC-8240A728203E}.Release|Any CPU.ActiveCfg = Release|Win32
 		{D20BF580-101C-4705-93FC-8240A728203E}.Release|Win32.ActiveCfg = Release|Win32
 		{D20BF580-101C-4705-93FC-8240A728203E}.Release|Win32.Build.0 = Release|Win32
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Debug|Win32.Build.0 = Debug|Any CPU
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Release|Win32.ActiveCfg = Release|Any CPU
+		{E92A1295-0EC6-4FBB-B1CC-3EB30395F0FB}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
